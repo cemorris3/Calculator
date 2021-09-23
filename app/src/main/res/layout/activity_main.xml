@@ -36,37 +36,37 @@
         android:id="@+id/buttonDivision"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="68dp"
+        android:onClick="divide"
         android:text="/"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintHorizontal_bias="0.615"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/integer2"
-        android:onClick="divide"/>
+        app:layout_constraintTop_toBottomOf="@id/integer2" />
 
     <Button
         android:id="@+id/buttonMultiplication"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="68dp"
+        android:onClick="multiply"
         android:text="x"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/integer2"
-        android:onClick="multiply"/>
+        app:layout_constraintTop_toBottomOf="@id/integer2" />
 
     <Button
         android:id="@+id/buttonSubtraction"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="68dp"
+        android:onClick="subtract"
         android:text="-"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/integer2"
-        android:onClick="subtract"/>
+        app:layout_constraintTop_toBottomOf="@id/integer2" />
 
     <TextView
         android:id="@+id/calculator"
@@ -85,12 +85,12 @@
         android:id="@+id/buttonAddition"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="68dp"
+        android:onClick="add"
         android:text="+"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/integer2"
-        android:onClick="add"/>
+        app:layout_constraintTop_toBottomOf="@id/integer2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
